@@ -24,7 +24,7 @@
 
 
 const char *ssid = "XIAO_Camera";
-const char *password = "12345678";
+const char *password = "****"; //put your password here
 httpd_handle_t camera_httpd = NULL;
 
 static esp_err_t stream_handler(httpd_req_t *req) {
